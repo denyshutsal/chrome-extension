@@ -7,6 +7,52 @@
 body {
   margin: 0;
   padding: 10px;
-  background-color: #e8f5e9;
+  min-width: 450px;
+  background-color: hsl(76, 31%, 93%);
+  color: hsl(0, 0%, 15%);
   overflow: hidden;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 71%);
+  margin-bottom: 5px;
+}
+
+button {
+  min-width: 110px;
+  padding: 10px 20px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: inherit;
+  line-height: normal;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(101, 54%, 27%);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#delete-btn {
+  background-color: hsl(90, 37%, 85%);
+  color: hsl(0, 0%, 39%);
+}
+
+#ul-el {
+  margin-top: 20px;
+  list-style: none;
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+a {
+  color: hsl(98, 39%, 42%);
+}
+
+.italic {
+  font-style: italic;
 }
