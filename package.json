@@ -1,0 +1,19 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension that can save notes or URLs of browser tabs.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denyshutsal/chrome-extension.git"
+  },
+  "author": "Denys Hutsal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denyshutsal/chrome-extension/issues"
+  },
+  "homepage": "https://github.com/denyshutsal/chrome-extension#readme"
+}

@@ -1,0 +1,1 @@
+Chrome extension that can save notes or URLs of browser tabs.

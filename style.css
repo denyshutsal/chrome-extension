@@ -1,0 +1,12 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  background-color: #e8f5e9;
+  overflow: hidden;
+}
