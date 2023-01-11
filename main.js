@@ -22,13 +22,18 @@ tabBtn.addEventListener("click", function(){
 function render(leads) {
   let listItems = ""
   for (let i = 0; i < leads.length; i++) {
-    listItems += `
-      <li>
-        <a target='_blank' href='${leads[i]}'>
-          ${leads[i]}
-        </a>
-      </li>
-    `
+    let currentString = leads[i]
+    if ( currentString.startsWith("http://") || currentString.startsWith("https://") || currentString.startsWith("www.")) {
+      listItems += `
+        <li>
+          <a target='_blank' href='${currentString}'>
+          ${currentString}
+          </a>
+        </li>
+      `
+    } else {
+      listItems += `<li class="italic">${currentString}</li>`
+    }
   }
   ulEl.innerHTML = listItems
 }
